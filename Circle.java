@@ -2,7 +2,7 @@ public class Circle {
     double radius;
     public Circle(double radius){
         if (radius==0){
-            throw new RuntimeException("A circle with such parameters does not exist.");
+            throw new RuntimeException("There is no figure with such parameters.");
         }
         this.radius=radius;
     }
